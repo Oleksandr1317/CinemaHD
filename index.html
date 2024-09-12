@@ -1,325 +1,451 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-<!-- Google Fonts -->
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Kanit:wght@400;700;800&display=swap" rel="stylesheet">
-<!--  styles  -->
+  <head>
+    <meta charset="UTF-8" />
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Kanit:wght@400;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <!-- Icon -->
+    <script
+      src="https://kit.fontawesome.com/b5ba6f6258.js"
+      crossorigin="anonymous"
+    ></script>
+    <!--  styles  -->
     <link rel="stylesheet" href="styles/shared.css" />
 
     <title>CinemaHD</title>
-</head>
-<body>
+  </head>
+  <body>
     <header>
-        <div id="page-logo">
-            <a href="index.html">CinemaHD</a>
-        </div>
-        <nav>
-            <ul>
-               <li>Search</li> 
-            </ul>
-        </nav>
+      <div id="page-logo">
+        <a href="index.html">CinemaHD</a>
+      </div>
+      <nav>
+        <ul>
+          <!-- Нужно будет реализовать через JS но у менять только HTML & CSS project -->
+          <li>Search</li>
+        </ul>
+      </nav>
     </header>
     <main>
-        <ul>
-            <li>
-                <a><img src="images/posters/aquaman.jpg" alt="aquaman" />
-                    <div class="hover-text">Black Manta seeks revenge on Aquaman for his father's death. Wielding the Black Trident's power, he becomes a formidable foe. To defend Atlantis, Aquaman forges an alliance with his imprisoned brother. They must protect the kingdom.</div>
-                    <div class="rating">IMDb RATING : ⭐ 5.8/10</div>
-                </a>
-                <div class="item-content">
-                        <h2>Aquaman and the Lost Kingdom</h2>
-                        <p class="age-green">12+</p>
-                </div>
-                <div class="categories">
-                    <span>Action</span>
-                    <span>Adventure</span>
-                    <span>Fantasy</span>
-                </div>
-            </li>
-            <li>
-                <a><img src="images/posters/wonka.jpg" alt="wonka" />
-                    <div class="hover-text">With dreams of opening a shop in a city renowned for its chocolate, a young and poor Willy Wonka discovers that the industry is run by a cartel of greedy chocolatiers.</div>
-                    <div class="rating">IMDb RATING : ⭐ 7.2/10</div>
-                </a>
-                <div class="item-content">
-                        <h2>Wonka</h2>
-                        <p class="age-green">0+</p>
-                </div>
-                <div class="categories">
-                    <span>Adventure</span>
-                    <span>Comedy</span>
-                    <span>Family</span>
-                </div>
-            </li>
-            <li>
-                <a><img src="images/posters/themarvels.jpeg" alt="themarvels" />
-                <div class="hover-text">Carol Danvers gets her powers entangled with those of Kamala Khan and Monica Rambeau, forcing them to work together to save the universe.</div>
-                <div class="rating">IMDb RATING : ⭐ 5.6/10</div>
-                </a>
-                <div class="item-content">
-                        <h2>The Marvels</h2>
-                        <p class="age-green">12+</p>
-                </div>
-                <div class="categories">
-                    <span>Action</span>
-                    <span>Adventure</span>
-                    <span>Fantasy</span>
-                </div>
-            </li>
-            <li>
-                <a><img src="images/posters/lift.jpg" alt="lift" />
-                    <div class="hover-text">Follows a master thief and his Interpol Agent ex-girlfriend who team up to steal $500 million in gold bullion being transported on an A380 passenger flight</div>
-                    <div class="rating">IMDb RATING : ⭐ 5.5/10</div>
-                </a>
-                <div class="item-content">
-                        <h2>Lift</h2>
-                        <p class="age-green">12+</p>
-                </div>
-                <div class="categories">
-                    <span>Action</span>
-                    <span>Comedy</span>
-                    <span>Crime</span>
-                </div>
-            </li>
-            <li>
-                <a><img src="images/posters/napoleon.jpg" alt="napoleon" />
-                    <div class="hover-text">An epic that details the checkered rise and fall of French Emperor Napoleon Bonaparte and his relentless journey to power through the prism of his addictive, volatile relationship with his wife, Josephine.</div>
-                    <div class="rating">IMDb RATING : ⭐ 6.5/10</div>
-                </a>
-                <div class="item-content">
-                        <h2>Napoleon</h2>
-                        <p class="age-red">18+</p>
-                </div>
-                <div class="categories">
-                    <span>Action</span>
-                    <span>Adventure</span>
-                    <span>Biography</span>
-                </div>
-            </li>
-            <li>
-                <a><img src="images/posters/Lasociedaddelanieve.jpg" alt="Lasociedaddelanieve" />
-                    <div class="hover-text">The flight of a rugby team crashes on a glacier in the Andes. The few passengers who survive the crash find themselves in one of the world's toughest environments to survive.</div>
-                    <div class="rating">IMDb RATING : ⭐ 7.9/10</div>
-                </a>
-                <div class="item-content">
-                        <h2>La sociedad de la nieve</h2>
-                        <p class="age-yellow">16+</p>
-                </div>
-                <div class="categories">
-                    <span>Action</span>
-                    <span>Drama</span>
-                    <span>History</span>
-                </div>
-            </li>
-            <li>
-                <a><img src="images/posters/migration.jpg" alt="migration" />
-                    <div class="hover-text">A family of ducks try to convince their overprotective father to go on the vacation of a lifetime.</div>
-                    <div class="rating">IMDb RATING : ⭐ 6.7/10</div>
-                </a>
-                <div class="item-content">
-                        <h2>Migration</h2>
-                        <p class="age-green">6+</p>
-                </div>
-                <div class="categories">
-                    <span>Animation</span>
-                    <span>Action</span>
-                    <span>Adventure</span>
-                </div>
-            </li>
-            <li>
-                <a><img src="images/posters/attack.jpg" alt="attack" />
-                    <div class="hover-text">Witness the rise of an army soldier as he realizes his destiny and comes to terms to becoming India's first super soldier created to combat terrorists as he fights his inner demons and outer enemies.With lots of action</div>
-                    <div class="rating">IMDb RATING : ⭐ 6.8/10</div>
-                </a>
-                <div class="item-content">
-                        <h2>Attack</h2>
-                        <p class="age-yellow">16+</p>
-                </div>
-                <div class="categories">
-                    <span>Action</span>
-                    <span>Sci-Fi</span>
-                    <span>Thriller</span>
-                </div>
-            </li>
-            <li>
-                <a><img src="images/posters/TheOctoGames.jpg" alt="TheOctoGames" />
-                    <div class="hover-text">8 contestants compete in 8 deadly, classic children's games. They seek fame beyond their wildest dreams, competing for the chance to take over the YouTube channel of the famous yet elusive masked YouTuber known only as "JaxPro".</div>
-                    <div class="rating">IMDb RATING : ⭐ 3.5/10</div>
-                </a>
-                <div class="item-content">
-                        <h2>The OctoGames</h2>
-                        <p class="age-yellow">16+</p>
-                </div>
-                <div class="categories">
-                    <span>Action</span>
-                    <span>Horor</span>
-                    <span>Sci-Fi</span>
-                </div>
-            </li>
-            <li>
-                <a><img src="images/posters/theboyandtheheron.jpg" alt="theboyandtheheron" />
-                    <div class="hover-text">A young boy named Mahito yearning for his mother ventures into a world shared by the living and the dead. There, death comes to an end, and life finds a new beginning.</div>
-                    <div class="rating">IMDb RATING : ⭐ 7.6/10</div>
-                </a>
-                <div class="item-content">
-                        <h2>The boy and the heron</h2>
-                        <p class="age-green">0+</p>
-                </div>
-                <div class="categories">
-                    <span>Animation</span>
-                    <span>Adventure</span>
-                    <span>Drama</span>
-                </div>
-            </li>
-            <li>
-                <a><img src="images/posters/roleplay.jpg" alt="roleplay" />
-                    <div class="hover-text">Emma has a wonderful husband and two kids in the suburbs of New Jersey. She also has a secret life as an assassin for hire, a secret that her husband Dave discovers when the couple decide to spice up their marriage with a little role play.</div>
-                    <div class="rating">IMDb RATING : ⭐ 5.5/10</div>
-                </a>
-                <div class="item-content">
-                        <h2>Role Play</h2>
-                        <p class="age-green">12+</p>
-                </div>
-                <div class="categories">
-                    <span>Action</span>
-                    <span>Comedy</span>
-                    <span>Romance</span>
-                </div>
-            </li>
-            <li>
-                <a><img src="images/posters/fightclub.jpg" alt="fightclub" />
-                    <div class="hover-text">An insomniac office worker and a devil-may-care soap maker form an underground fight club that evolves into much more.</div>
-                    <div class="rating">IMDb RATING : ⭐ 8.4/10</div>
-                </a>
-                <div class="item-content">
-                        <h2>Fightclub</h2>
-                        <p class="age-red">18+</p>
-                </div>
-                <div class="categories">
-                    <span>Drama</span>
-                </div>
-            </li>
-            <li>
-                <a><img src="images/posters/PoorThings.jpg" alt="PoorThings" />
-                    <div class="hover-text">The incredible tale about the fantastical evolution of Bella Baxter, a young woman brought back to life by the brilliant and unorthodox scientist Dr. Godwin Baxter.</div>
-                    <div class="rating">IMDb RATING : ⭐ 8.4/10</div>                
-                </a>
-                <div class="item-content">
-                        <h2>Poor Things</h2>
-                        <p class="age-red">18+</p>
-                </div>
-                <div class="categories">
-                    <span>Comedy</span>
-                    <span>Drama</span>
-                    <span>Romance</span>
-                </div>
-            </li>
-            <li>
-                <a><img src="images/posters/Oppenheimer.jpg" alt="Oppenheimer" />
-                    <div class="hover-text">The story of American scientist J. Robert Oppenheimer and his role in the development of the atomic bomb.</div>
-                    <div class="rating">IMDb RATING : ⭐ 8.4/10</div>
-                </a>
-                <div class="item-content">
-                        <h2>Oppenheimer</h2>
-                        <p class="age-red">18+</p>
-                </div>
-                <div class="categories">
-                    <span>Biography</span>
-                    <span>Drama</span>
-                    <span>History</span>
-                </div>
-            </li>
-            <li>
-                <a><img src="images/posters/ThePainter.jpg" alt="ThePainter" />
-                    <div class="hover-text">An ex-CIA operative is thrown back into a dangerous world when a mysterious woman from his past resurfaces. Now exposed and targeted by a relentless killer and a rogue black ops program, he must rely on skills he thought he left behind.</div>
-                    <div class="rating">IMDb RATING : ⭐ 4.5/10</div>
-                </a>
-                <div class="item-content">
-                        <h2>The Painter</h2>
-                        <p class="age-yellow">16+</p>
-                </div>
-                <div class="categories">
-                    <span>Thriller</span>
-                </div>
-            </li>
-            <li>
-                <a><img src="images/posters/DeepFear.jpg" alt="DeepFear" />
-                    <div class="hover-text">Storm-stricken drug traffickers force a yachtswoman to recover their sunken cocaine stash from shark-infested waters.</div>
-                    <div class="rating">IMDb RATING : ⭐ 5.0/10</div>
-                </a>
-                <div class="item-content">
-                        <h2>Deep Fear</h2>
-                        <p class="age-red">18+</p>
-                </div>
-                <div class="categories">
-                    <span>Action</span>
-                    <span>Thriller</span>
-                </div>
-            </li>
-            <li>
-                <a><img src="images/posters/KillersoftheFlowerMoon.jpg" alt="Killer" />
-                    <div class="hover-text">When oil is discovered in 1920s Oklahoma under Osage Nation land, the Osage people are murdered one by one - until the FBI steps in to unravel the mystery.</div>
-                    <div class="rating">IMDb RATING : ⭐ 7.7/10</div>
-                </a>
-                <div class="item-content">
-                        <h2>Killers of the Flower Moon</h2>
-                        <p class="age-yellow">16+</p>
-                </div>
-                <div class="categories">
-                    <span>Crime</span>
-                    <span>Drama</span>
-                    <span>History</span>
-                </div>
-            </li>
-            <li>
-                <a><img src="images/posters/Barbie.jpg" alt="Barbie" />
-                    <div class="hover-text">Barbie and Ken are having the time of their lives in the colorful and seemingly perfect world of Barbie Land. However, when they get a chance to go to the real world, they soon discover the joys and perils of living among humans.</div>
-                    <div class="rating">IMDb RATING : ⭐ 6.9/10</div>
-                </a>
-                <div class="item-content">
-                        <h2>Barbie</h2>
-                        <p class="age-green">12+</p>
-                </div>
-                <div class="categories">
-                    <span>Comedy</span>
-                    <span>Adventure</span>
-                    <span>Fantasy</span>
-                </div>
-            </li>
-            <li>
-                <a><img src="images/posters/Wish.jpg" alt="wish" />
-                    <div class="hover-text">A young girl named Asha wishes on a star and gets a more direct answer than she bargained for when a trouble-making star comes down from the sky to join her.</div>
-                    <div class="rating">IMDb RATING : ⭐ 5.7/10</div>
-                </a>
-                <div class="item-content">
-                        <h2>Wish</h2>
-                        <p class="age-green">0+</p>
-                </div>
-                <div class="categories">
-                    <span>Animation</span>
-                    <span>Adventure</span>
-                    <span>Comedy</span>
-                </div>
-            </li>
-            <li>
-                <a><img src="images/posters/OneMoreShot.jpg" alt="OneMoreShot" />
-                    <div class="hover-text">Following the attack on the black site in Poland, Navy SEAL Jake Harris is ordered to escort terrorist suspect Amin Mansur to Washington D.C for interrogation.</div>
-                    <div class="rating">IMDb RATING : ⭐ 5.5/10</div>
-                </a>
-                <div class="item-content">
-                        <h2>One More Shot</h2>
-                        <p class="age-red">18+</p>
-                </div>
-                <div class="categories">
-                    <span>Action</span>
-                    <span>Thriller</span>
-                </div>
-            </li>
-        </ul>
+      <ul>
+        <li>
+          <a
+            ><img src="images/posters/aquaman.jpg" alt="aquaman" />
+            <div class="hover-text">
+              Black Manta seeks revenge on Aquaman for his father's death.
+              Wielding the Black Trident's power, he becomes a formidable foe.
+              To defend Atlantis, Aquaman forges an alliance with his imprisoned
+              brother. They must protect the kingdom.
+            </div>
+            <div class="rating">IMDb RATING : ⭐ 5.8/10</div>
+          </a>
+          <div class="item-content">
+            <h2>Aquaman and the Lost Kingdom</h2>
+            <p class="age-green">12+</p>
+          </div>
+          <div class="categories">
+            <span>Action</span>
+            <span>Adventure</span>
+            <span>Fantasy</span>
+          </div>
+        </li>
+        <li>
+          <a
+            ><img src="images/posters/wonka.jpg" alt="wonka" />
+            <div class="hover-text">
+              With dreams of opening a shop in a city renowned for its
+              chocolate, a young and poor Willy Wonka discovers that the
+              industry is run by a cartel of greedy chocolatiers.
+            </div>
+            <div class="rating">IMDb RATING : ⭐ 7.2/10</div>
+          </a>
+          <div class="item-content">
+            <h2>Wonka</h2>
+            <p class="age-green">0+</p>
+          </div>
+          <div class="categories">
+            <span>Adventure</span>
+            <span>Comedy</span>
+            <span>Family</span>
+          </div>
+        </li>
+        <li>
+          <a
+            ><img src="images/posters/themarvels.jpeg" alt="themarvels" />
+            <div class="hover-text">
+              Carol Danvers gets her powers entangled with those of Kamala Khan
+              and Monica Rambeau, forcing them to work together to save the
+              universe.
+            </div>
+            <div class="rating">IMDb RATING : ⭐ 5.6/10</div>
+          </a>
+          <div class="item-content">
+            <h2>The Marvels</h2>
+            <p class="age-green">12+</p>
+          </div>
+          <div class="categories">
+            <span>Action</span>
+            <span>Adventure</span>
+            <span>Fantasy</span>
+          </div>
+        </li>
+        <li>
+          <a
+            ><img src="images/posters/lift.jpg" alt="lift" />
+            <div class="hover-text">
+              Follows a master thief and his Interpol Agent ex-girlfriend who
+              team up to steal $500 million in gold bullion being transported on
+              an A380 passenger flight
+            </div>
+            <div class="rating">IMDb RATING : ⭐ 5.5/10</div>
+          </a>
+          <div class="item-content">
+            <h2>Lift</h2>
+            <p class="age-green">12+</p>
+          </div>
+          <div class="categories">
+            <span>Action</span>
+            <span>Comedy</span>
+            <span>Crime</span>
+          </div>
+        </li>
+        <li>
+          <a
+            ><img src="images/posters/napoleon.jpg" alt="napoleon" />
+            <div class="hover-text">
+              An epic that details the checkered rise and fall of French Emperor
+              Napoleon Bonaparte and his relentless journey to power through the
+              prism of his addictive, volatile relationship with his wife,
+              Josephine.
+            </div>
+            <div class="rating">IMDb RATING : ⭐ 6.5/10</div>
+          </a>
+          <div class="item-content">
+            <h2>Napoleon</h2>
+            <p class="age-red">18+</p>
+          </div>
+          <div class="categories">
+            <span>Action</span>
+            <span>Adventure</span>
+            <span>Biography</span>
+          </div>
+        </li>
+        <li>
+          <a
+            ><img
+              src="images/posters/Lasociedaddelanieve.jpg"
+              alt="Lasociedaddelanieve"
+            />
+            <div class="hover-text">
+              The flight of a rugby team crashes on a glacier in the Andes. The
+              few passengers who survive the crash find themselves in one of the
+              world's toughest environments to survive.
+            </div>
+            <div class="rating">IMDb RATING : ⭐ 7.9/10</div>
+          </a>
+          <div class="item-content">
+            <h2>La sociedad de la nieve</h2>
+            <p class="age-yellow">16+</p>
+          </div>
+          <div class="categories">
+            <span>Action</span>
+            <span>Drama</span>
+            <span>History</span>
+          </div>
+        </li>
+        <li>
+          <a
+            ><img src="images/posters/migration.jpg" alt="migration" />
+            <div class="hover-text">
+              A family of ducks try to convince their overprotective father to
+              go on the vacation of a lifetime.
+            </div>
+            <div class="rating">IMDb RATING : ⭐ 6.7/10</div>
+          </a>
+          <div class="item-content">
+            <h2>Migration</h2>
+            <p class="age-green">6+</p>
+          </div>
+          <div class="categories">
+            <span>Animation</span>
+            <span>Action</span>
+            <span>Adventure</span>
+          </div>
+        </li>
+        <li>
+          <a
+            ><img src="images/posters/attack.jpg" alt="attack" />
+            <div class="hover-text">
+              Witness the rise of an army soldier as he realizes his destiny and
+              comes to terms to becoming India's first super soldier created to
+              combat terrorists as he fights his inner demons and outer
+              enemies.With lots of action
+            </div>
+            <div class="rating">IMDb RATING : ⭐ 6.8/10</div>
+          </a>
+          <div class="item-content">
+            <h2>Attack</h2>
+            <p class="age-yellow">16+</p>
+          </div>
+          <div class="categories">
+            <span>Action</span>
+            <span>Sci-Fi</span>
+            <span>Thriller</span>
+          </div>
+        </li>
+        <li>
+          <a
+            ><img src="images/posters/TheOctoGames.jpg" alt="TheOctoGames" />
+            <div class="hover-text">
+              8 contestants compete in 8 deadly, classic children's games. They
+              seek fame beyond their wildest dreams, competing for the chance to
+              take over the YouTube channel of the famous yet elusive masked
+              YouTuber known only as "JaxPro".
+            </div>
+            <div class="rating">IMDb RATING : ⭐ 3.5/10</div>
+          </a>
+          <div class="item-content">
+            <h2>The OctoGames</h2>
+            <p class="age-yellow">16+</p>
+          </div>
+          <div class="categories">
+            <span>Action</span>
+            <span>Horor</span>
+            <span>Sci-Fi</span>
+          </div>
+        </li>
+        <li>
+          <a
+            ><img
+              src="images/posters/theboyandtheheron.jpg"
+              alt="theboyandtheheron"
+            />
+            <div class="hover-text">
+              A young boy named Mahito yearning for his mother ventures into a
+              world shared by the living and the dead. There, death comes to an
+              end, and life finds a new beginning.
+            </div>
+            <div class="rating">IMDb RATING : ⭐ 7.6/10</div>
+          </a>
+          <div class="item-content">
+            <h2>The boy and the heron</h2>
+            <p class="age-green">0+</p>
+          </div>
+          <div class="categories">
+            <span>Animation</span>
+            <span>Adventure</span>
+            <span>Drama</span>
+          </div>
+        </li>
+        <li>
+          <a
+            ><img src="images/posters/roleplay.jpg" alt="roleplay" />
+            <div class="hover-text">
+              Emma has a wonderful husband and two kids in the suburbs of New
+              Jersey. She also has a secret life as an assassin for hire, a
+              secret that her husband Dave discovers when the couple decide to
+              spice up their marriage with a little role play.
+            </div>
+            <div class="rating">IMDb RATING : ⭐ 5.5/10</div>
+          </a>
+          <div class="item-content">
+            <h2>Role Play</h2>
+            <p class="age-green">12+</p>
+          </div>
+          <div class="categories">
+            <span>Action</span>
+            <span>Comedy</span>
+            <span>Romance</span>
+          </div>
+        </li>
+        <li>
+          <a
+            ><img src="images/posters/fightclub.jpg" alt="fightclub" />
+            <div class="hover-text">
+              An insomniac office worker and a devil-may-care soap maker form an
+              underground fight club that evolves into much more.
+            </div>
+            <div class="rating">IMDb RATING : ⭐ 8.4/10</div>
+          </a>
+          <div class="item-content">
+            <h2>Fightclub</h2>
+            <p class="age-red">18+</p>
+          </div>
+          <div class="categories">
+            <span>Drama</span>
+          </div>
+        </li>
+        <li>
+          <a
+            ><img src="images/posters/PoorThings.jpg" alt="PoorThings" />
+            <div class="hover-text">
+              The incredible tale about the fantastical evolution of Bella
+              Baxter, a young woman brought back to life by the brilliant and
+              unorthodox scientist Dr. Godwin Baxter.
+            </div>
+            <div class="rating">IMDb RATING : ⭐ 8.4/10</div>
+          </a>
+          <div class="item-content">
+            <h2>Poor Things</h2>
+            <p class="age-red">18+</p>
+          </div>
+          <div class="categories">
+            <span>Comedy</span>
+            <span>Drama</span>
+            <span>Romance</span>
+          </div>
+        </li>
+        <li>
+          <a
+            ><img src="images/posters/Oppenheimer.jpg" alt="Oppenheimer" />
+            <div class="hover-text">
+              The story of American scientist J. Robert Oppenheimer and his role
+              in the development of the atomic bomb.
+            </div>
+            <div class="rating">IMDb RATING : ⭐ 8.4/10</div>
+          </a>
+          <div class="item-content">
+            <h2>Oppenheimer</h2>
+            <p class="age-red">18+</p>
+          </div>
+          <div class="categories">
+            <span>Biography</span>
+            <span>Drama</span>
+            <span>History</span>
+          </div>
+        </li>
+        <li>
+          <a
+            ><img src="images/posters/ThePainter.jpg" alt="ThePainter" />
+            <div class="hover-text">
+              An ex-CIA operative is thrown back into a dangerous world when a
+              mysterious woman from his past resurfaces. Now exposed and
+              targeted by a relentless killer and a rogue black ops program, he
+              must rely on skills he thought he left behind.
+            </div>
+            <div class="rating">IMDb RATING : ⭐ 4.5/10</div>
+          </a>
+          <div class="item-content">
+            <h2>The Painter</h2>
+            <p class="age-yellow">16+</p>
+          </div>
+          <div class="categories">
+            <span>Thriller</span>
+          </div>
+        </li>
+        <li>
+          <a
+            ><img src="images/posters/DeepFear.jpg" alt="DeepFear" />
+            <div class="hover-text">
+              Storm-stricken drug traffickers force a yachtswoman to recover
+              their sunken cocaine stash from shark-infested waters.
+            </div>
+            <div class="rating">IMDb RATING : ⭐ 5.0/10</div>
+          </a>
+          <div class="item-content">
+            <h2>Deep Fear</h2>
+            <p class="age-red">18+</p>
+          </div>
+          <div class="categories">
+            <span>Action</span>
+            <span>Thriller</span>
+          </div>
+        </li>
+        <li>
+          <a
+            ><img
+              src="images/posters/KillersoftheFlowerMoon.jpg"
+              alt="Killer"
+            />
+            <div class="hover-text">
+              When oil is discovered in 1920s Oklahoma under Osage Nation land,
+              the Osage people are murdered one by one - until the FBI steps in
+              to unravel the mystery.
+            </div>
+            <div class="rating">IMDb RATING : ⭐ 7.7/10</div>
+          </a>
+          <div class="item-content">
+            <h2>Killers of the Flower Moon</h2>
+            <p class="age-yellow">16+</p>
+          </div>
+          <div class="categories">
+            <span>Crime</span>
+            <span>Drama</span>
+            <span>History</span>
+          </div>
+        </li>
+        <li>
+          <a
+            ><img src="images/posters/Barbie.jpg" alt="Barbie" />
+            <div class="hover-text">
+              Barbie and Ken are having the time of their lives in the colorful
+              and seemingly perfect world of Barbie Land. However, when they get
+              a chance to go to the real world, they soon discover the joys and
+              perils of living among humans.
+            </div>
+            <div class="rating">IMDb RATING : ⭐ 6.9/10</div>
+          </a>
+          <div class="item-content">
+            <h2>Barbie</h2>
+            <p class="age-green">12+</p>
+          </div>
+          <div class="categories">
+            <span>Comedy</span>
+            <span>Adventure</span>
+            <span>Fantasy</span>
+          </div>
+        </li>
+        <li>
+          <a
+            ><img src="images/posters/Wish.jpg" alt="wish" />
+            <div class="hover-text">
+              A young girl named Asha wishes on a star and gets a more direct
+              answer than she bargained for when a trouble-making star comes
+              down from the sky to join her.
+            </div>
+            <div class="rating">IMDb RATING : ⭐ 5.7/10</div>
+          </a>
+          <div class="item-content">
+            <h2>Wish</h2>
+            <p class="age-green">0+</p>
+          </div>
+          <div class="categories">
+            <span>Animation</span>
+            <span>Adventure</span>
+            <span>Comedy</span>
+          </div>
+        </li>
+        <li>
+          <a
+            ><img src="images/posters/OneMoreShot.jpg" alt="OneMoreShot" />
+            <div class="hover-text">
+              Following the attack on the black site in Poland, Navy SEAL Jake
+              Harris is ordered to escort terrorist suspect Amin Mansur to
+              Washington D.C for interrogation.
+            </div>
+            <div class="rating">IMDb RATING : ⭐ 5.5/10</div>
+          </a>
+          <div class="item-content">
+            <h2>One More Shot</h2>
+            <p class="age-red">18+</p>
+          </div>
+          <div class="categories">
+            <span>Action</span>
+            <span>Thriller</span>
+          </div>
+        </li>
+      </ul>
     </main>
-    <footer></footer>
-</body>
+    <footer>
+        <div id="prodBy">
+            <a class="inst-i" href="https://www.instagram.com/genera1ov1/"><i class="fa-brands fa-instagram fa-bounce" style="color: #d8f218;"></i></a>
+            <p class="p-prodBy">prod. gladkoskok</p>
+          </div>
+    </footer>
+  </body>
 </html>

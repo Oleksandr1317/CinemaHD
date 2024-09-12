@@ -175,13 +175,21 @@ main li a:hover .hover-text {
     backdrop-filter: blur(3px);
 }
 
-@media screen and (max-width: 768px) {
+#prodBy {
+    background-color: rgb(80, 65, 86);
+    display: flex;
+    justify-content: right;
+    flex-direction: row;
+    border-radius: 1rem;
+}
 
-    ul {
-        margin: 0;
-      flex-direction: column;
-      margin-left: 50px;
-      align-items: start;
-    }
-  }
+.p-prodBy { 
+    margin: 0.5rem 3.5rem 0rem 0rem;
+    font-size: 1rem;
+}
 
+.inst-i i {
+    font-size: 2rem;
+    opacity: 80%;
+    margin-right: 1.3rem;
+}
