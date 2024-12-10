@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Registration Page</title>
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Kanit:wght@400;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <!-- Icon -->
+    <script
+      src="https://kit.fontawesome.com/b5ba6f6258.js"
+      crossorigin="anonymous"
+    ></script>
+    <!--  styles  -->
+    <link rel="stylesheet" href="styles/RegistrationPage.css" />
+  </head>
+  <body>
+    <div class="registration-container">
+      <h1 id="CinemaHD">CinemaHD</h1>
+      <form class="registration-form" action="index.html" method="get">
+        <h1>Registration</h1>
+        <div class="form-group">
+          <label for="username">Username</label>
+          <input type="text" id="username" name="username" required />
+        </div>
+        <div class="form-group">
+          <label for="email">Email</label>
+          <input type="email" id="email" name="email" required />
+        </div>
+        <div class="form-group">
+          <label for="password">Password</label>
+          <input type="password" id="password" name="password" required />
+        </div>
+        <div class="form-group">
+          <label for="confirm-password">Confirm Password</label>
+          <input
+            type="password"
+            id="confirm-password"
+            name="confirm-password"
+            required
+          />
+        </div>
+        <button type="submit">Sign Up</button>
+      </form>
+    </div>
+  </body>
+</html>
